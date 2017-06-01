@@ -11,7 +11,8 @@
     "lint:fix": "standard --fix"
   },
   "dependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "sass-json-export": "^2.0.0"
   },
   "devDependencies": {
     "husky": "^0.13.4",

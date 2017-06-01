@@ -30,12 +30,13 @@ class SassVarsExtractor {
         data: `
             @import "${entryPoint}";
             
-            @import "src-resolved/sass-json-export";
+            @import "sass-json-export/stylesheets/sass-json-export";
               
             @import "${compilationID}";
         `,
         includePaths: [
-          path.dirname(entryPoint)
+          path.dirname(entryPoint),
+          'node_modules'
         ],
         importer: importerInstance.exec()
       }, (error, result) => {

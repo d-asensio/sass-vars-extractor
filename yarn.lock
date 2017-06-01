@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@haiticss/haiticss@^1.0.0-alpha":
+  version "1.0.0-alpha"
+  resolved "https://registry.yarnpkg.com/@haiticss/haiticss/-/haiticss-1.0.0-alpha.tgz#43d7baf9bfa4fd9603d7dd0cb3572def2ef78e37"
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -792,6 +796,10 @@ globule@^1.0.0:
 graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+haiticss@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/haiticss/-/haiticss-1.0.0.tgz#f990d6041812422c189a0456c2a6db84d015fe3b"
 
 har-schema@^1.0.5:
   version "1.0.5"
@@ -1619,6 +1627,10 @@ sass-graph@^2.1.1:
     lodash "^4.0.0"
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
+
+sass-json-export@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/sass-json-export/-/sass-json-export-2.0.0.tgz#3cb85391ae8de9008a7841476d601b8d6ba1141e"
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"
