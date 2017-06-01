@@ -1,0 +1,20 @@
+{
+  "name": "sass-vars-extractor",
+  "version": "1.0.0",
+  "description": "A secure and performant utility to extract sass variables (and use their values from JavaScript).",
+  "main": "src/SassVarsExtractor.js",
+  "author": "David Asensio Cañas <david.asensio@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "./tasks/husky/lint-js-standard.sh",
+    "lint:check": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {
+    "husky": "^0.13.4",
+    "standard": "^10.0.2"
+  }
+}
