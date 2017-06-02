@@ -2,6 +2,7 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm version](https://badge.fury.io/js/sass-vars-extractor.svg)](https://badge.fury.io/js/sass-vars-extractor)
+[![Build Status](https://travis-ci.org/d-asensio/sass-vars-extractor.svg?branch=master)](https://travis-ci.org/d-asensio/sass-vars-extractor)
 
 👾 A secure and performant utility to extract sass variables (and use their values from JavaScript).
 
