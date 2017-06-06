@@ -1,6 +1,6 @@
 {
   "name": "sass-vars-extractor",
-  "version": "1.0.0-alpha",
+  "version": "1.1.0-alpha",
   "description": "A secure and performant utility to extract sass variables (and use their values from JavaScript).",
   "main": "src/SassVarsExtractor.js",
   "author": "David Asensio Cañas <david.asensio@icloud.com>",
