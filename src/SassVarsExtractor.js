@@ -38,22 +38,21 @@ class SassVarsExtractor {
    * @param entryPoint
    * @returns {Promise}
    */
-  static extract (entryPoint) {
+  static extract (entryPoint, includePaths = []) {
     return new Promise((resolve, reject) => {
       let compilationID = SassVarsExtractor.generateCompilationID()
+
+      includePaths.push(path.dirname(entryPoint))
 
       sass.render({
         data: `
             @import "${entryPoint}";
             
-            @import "sass-json-export";
+            @import "node_modules/sass-json-export/stylesheets/sass-json-export";
               
             @import "${compilationID}";
         `,
-        includePaths: [
-          path.dirname(entryPoint),
-          'node_modules/sass-json-export/stylesheets/'
-        ],
+        includePaths: includePaths,
         importer: SassImporter.exec(compilationID)
       }, (error, result) => {
         if (error) {
