@@ -33,9 +33,10 @@ class SassVarsExtractor {
   }
 
   /**
-   * @todo add documentation here.
+   * Given a main sass file, and optional includePaths sass options, evaluates and compiles a virtual sass document and process the result to finally return the vars and resolved values as an object
    *
    * @param entryPoint
+   * @param includePaths
    * @returns {Promise}
    */
   static extract (entryPoint, includePaths = []) {
