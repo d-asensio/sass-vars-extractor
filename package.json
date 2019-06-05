@@ -23,7 +23,7 @@
     "sass-json-export": "^2.0.0"
   },
   "devDependencies": {
-    "husky": "^1.0.0",
+    "husky": "^2.4.0",
     "standard": "^11.0.0"
   }
 }
