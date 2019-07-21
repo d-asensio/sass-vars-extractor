@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "husky": "^1.0.0",
-    "standard": "^11.0.0"
+    "standard": "^13.1.0"
   }
 }
